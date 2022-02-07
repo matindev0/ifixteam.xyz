@@ -1,7 +1,0 @@
-{
-  "name": "iFix",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
