@@ -14,6 +14,10 @@ ul {
   list-style: none;
 }
 
+h2 {
+  color: #3363FF;
+}
+
 a {
   text-decoration: none;
   color: #3363FF;

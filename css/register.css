@@ -1,0 +1,32 @@
+#register {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 9px;
+  margin: 0 auto;
+  border-radius: 7px;
+}
+#register.success {
+  background-color: #4158FF;/*rgb(211, 250, 153)*/
+  color: whitesmoke;
+  animation: register 4s ease forwards;
+}
+#register.error {
+  background-color: #AE0000; /*rgb(250, 129, 92)*/
+  color: whitesmoke;
+  animation: register 4s ease forwards;
+}
+@keyframes register {
+  0% {
+    opacity: 2;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 2;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
