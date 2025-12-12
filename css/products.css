@@ -145,30 +145,6 @@
   font-weight: 700;
 }
 
-.add-to-cart {
-  width: 100%;
-  padding: 12px 20px;
-  background-color: #3363FF;
-  border: none;
-  border-radius: 6px;
-  color: #ffffff;
-  font-family: poppins;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all ease 0.3s;
-}
-
-.add-to-cart:hover {
-  background-color: #46a0f5;
-  transform: translateY(-2px);
-  box-shadow: 0 5px 20px rgba(51, 99, 255, 0.3);
-}
-
-.add-to-cart:active {
-  transform: translateY(0);
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
   #products-section {
